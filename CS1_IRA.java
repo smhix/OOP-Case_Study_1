@@ -8,7 +8,7 @@
  * Gesulga, Ryah Jovein C.
  * Harina, Sarah Mae D.C.
  * Padrique, Ferlyn C.
- * Tamparong, Liezel Joan
+ * Tamparong, Liezel Joan M.
  */
 
  import java.util.Scanner;
