@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CS1_OMG {
-    static String[] COLOR = {"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "gray", "white"};
+    static String[] COLOR_CODES = {"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "gray", "white"};
     static int[] MULTIPLIERS = {1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000, 1000000000};
 
     public static int search(String[] list, String target) {
@@ -26,9 +26,9 @@ public class CS1_OMG {
             System.out.print("Band 3 => ");
             String band3 = scanner.next();
             
-            int digit1 = search(COLOR, band1);
-            int digit2 = search(COLOR, band2);
-            int multiplierIndex = search(COLOR, band3);
+            int digit1 = search(COLOR_CODES, band1);
+            int digit2 = search(COLOR_CODES, band2);
+            int multiplierIndex = search(COLOR_CODES, band3);
             
             if (digit1 == -1 || digit2 == -1 || multiplierIndex == -1) {
                 if (digit1 == -1) System.out.println("Invalid color: " + band1);
